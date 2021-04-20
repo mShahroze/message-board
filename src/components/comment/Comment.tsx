@@ -26,9 +26,13 @@ const SingleComment = ({
   return (
     <div className='comment'>
       <p>{comment}</p>
-      <span>{username}</span>
+      <span>By {username}</span>
       {replies.length && (
-        <div data-testid={`${id}-comment`} onClick={() => handleClick()}>
+        <div
+          className='replies replies-dropdown'
+          data-testid={`${id}-comment`}
+          onClick={() => handleClick()}
+        >
           View {replies.length} Replies
         </div>
       )}

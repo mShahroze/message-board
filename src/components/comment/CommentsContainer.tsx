@@ -16,7 +16,7 @@ const CommentsContainer = (): JSX.Element => {
   }, []);
 
   return comments ? (
-    <div>
+    <div className='comments'>
       {comments.map((comment) => {
         return <SingleComment comment={comment} key={comment.id} />;
       })}

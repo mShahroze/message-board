@@ -10,7 +10,7 @@ const App: FC = () => {
       </header>
 
       <section>
-        <h1>Comments</h1>
+        <h1>Top Comments</h1>
         <CommentsContainer />
       </section>
     </div>

@@ -18,12 +18,12 @@ describe('Comment Component', () => {
     const comment: Comment = {
       id: '01',
       user: { id: '01', name: 'Sky' },
-      comment: 'efwefuin fejefeo',
+      comment: 'Hello my friend!',
       replies: [
         {
           id: '01',
-          user: { id: '03', name: 'blue' },
-          comment: 'efwfefsfseefuin fejefesfsefeo',
+          user: { id: '03', name: 'Kevin' },
+          comment: 'My favourite desert is Ice-cream',
           replies: []
         }
       ]

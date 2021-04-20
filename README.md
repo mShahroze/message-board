@@ -100,7 +100,16 @@ Once all required dependencies are installed, you can check the node_modules fol
 
 ## Running the tests
 
-Coming soon...
+For the test I have used Jest and React test library. The blocks test for display of comments snapshot and additional test for test comment data by ID. Event fire function has been used to detect click event for viewing replies. The render mockup is used to test the event.
+
+To run the test:
+
+Use the command below. Script for test has been added. All packages and required can be installed using npm install
+
+```
+npm test
+
+```
 
 ## Running the app
 

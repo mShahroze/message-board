@@ -3,18 +3,11 @@ interface User {
   name:string;
 }
 
-interface Reply {
-  id: string;
-  user: User;
-  comment: string;
-  replies: Reply[];
-}
-
 export interface Comment {
   id: string;
   user: User;
   comment: string;
-  replies: Reply[];
+  replies: Comment[];
 }
 
 export interface CommentData {

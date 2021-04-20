@@ -1,18 +1,8 @@
-import React, { FC, useEffect, useState } from 'react';
+import React, { FC } from 'react';
 import './app.scss';
-import fetchComments from './services/api';
-import { CommentData, Comment } from './types/Comment';
+import CommentsContainer from './components/comment/CommentsContainer';
 
 const App: FC = () => {
-  const [comments, setComments] = useState<Comment[]>();
-
-  useEffect(() => {
-    fetchComments().then(({ data }: CommentData) => {
-      console.log(data);
-      setComments(data);
-    });
-  }, []);
-
   return (
     <div className='main'>
       <header>
@@ -21,15 +11,7 @@ const App: FC = () => {
 
       <section>
         <h1>Comments</h1>
-        {comments &&
-          comments.map(({ id, comment, user: { name: username } }) => {
-            return (
-              <div className='comment' key={id}>
-                <p>{comment}</p>
-                <span>{username}</span>
-              </div>
-            );
-          })}
+        <CommentsContainer />
       </section>
     </div>
   );

@@ -16,11 +16,7 @@ const CommentsContainer = (): JSX.Element => {
   return comments ? (
     <div>
       {comments.map((comment) => {
-        return (
-          <div key={comment.id}>
-            <SingleComment comment={comment} />
-          </div>
-        );
+        return <SingleComment comment={comment} key={comment.id} />;
       })}
     </div>
   ) : (

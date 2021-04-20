@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommentContainer Component No Data received 1`] = `
+<DocumentFragment>
+  <div />
+</DocumentFragment>
+`;
+
+exports[`CommentContainer Component should take a snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="comment"
+    >
+      <p>
+        Could someone point out to me, what the benefit of winning the group is? I mean, both finalists of the group will qualify for the Spring Finals? So what is the point of fighting for 1st? Braggin’ rights?
+      </p>
+      <span>
+        MakeNBreak69
+      </span>
+      <div
+        data-testid="comment-0001-comment"
+      >
+        View 2 Replies
+      </div>
+    </div>
+    <div
+      class="comment"
+    >
+      <p>
+        NiP have the stream running on a big TV in the same room they're playing in.Are we doing this whole shenanigans again now? Didn't ESIC say there are gonna be consequences from now on? Getting a little tired of this.
+      </p>
+      <span>
+        z0ttel89
+      </span>
+      <div
+        data-testid="comment-0003-comment"
+      >
+        View 2 Replies
+      </div>
+    </div>
+    <div
+      class="comment"
+    >
+      <p>
+        Blast has the best presentation and production of all the ongoing series at the moment, my favourite without a doubt. That sounded like a paid advertisement, but I really just like the series
+      </p>
+      <span>
+        Spartan_exr
+      </span>
+      0
+    </div>
+  </div>
+</DocumentFragment>
+`;

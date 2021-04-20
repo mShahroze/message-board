@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import fetchComments from '../../services/api';
-import { CommentData, Comment } from '../../types/Comment';
+import { Comment } from '../../types/Comment';
 import SingleComment from './Comment';
 
 const CommentsContainer = (): JSX.Element => {
   const [comments, setComments] = useState<Comment[]>();
 
   useEffect(() => {
-    fetchComments().then(({ data }: CommentData) => {
-      console.log(data);
+    async function getData() {
+      const { data } = await fetchComments();
       setComments(data);
-    });
+    }
+
+    getData();
   }, []);
 
   return comments ? (

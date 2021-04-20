@@ -1,0 +1,73 @@
+{
+  "data": [
+    {
+      "id": "comment-0001",
+      "user": {
+        "id": "user-0001",
+        "name": "MakeNBreak69"
+      },
+      "comment": "Could someone point out to me, what the benefit of winning the group is? I mean, both finalists of the group will qualify for the Spring Finals? So what is the point of fighting for 1st? Braggin’ rights?",
+      "replies": [
+        {
+          "id": "comment-0001-001",
+          "user": {
+            "id": "user-0002",
+            "name": "srjnp"
+          },
+          "comment": "double the money plus better seeding",
+          "replies": []
+        },
+        {
+          "id": "comment-0001-002",
+          "user": {
+            "id": "user-0003",
+            "name": "costryme"
+          },
+          "comment": "Better seeding in the Finals for the first match IIRC\nAnd you win more money as group winner",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "comment-0003",
+      "user": {
+        "id": "user-0006",
+        "name": "z0ttel89"
+      },
+      "comment": "NiP have the stream running on a big TV in the same room they're playing in.Are we doing this whole shenanigans again now? Didn't ESIC say there are gonna be consequences from now on? Getting a little tired of this.",
+      "replies": [
+        {
+          "id": "comment-0003-001",
+          "user": {
+            "id": "user-0007",
+            "name": "Keyed"
+          },
+          "comment": "It's not the stream, it's the coach PC hooked up to the TV",
+          "replies": []
+        },
+        {
+          "id": "comment-0003-002",
+          "user": {
+            "id": "user-0009",
+            "name": "OuiOuiOuis"
+          },
+          "comment": "Doesn’t big currently has the stream on a big screen?",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "comment-0004",
+      "user": {
+        "id": "user-0010",
+        "name": "Spartan_exr"
+      },
+      "comment": "Blast has the best presentation and production of all the ongoing series at the moment, my favourite without a doubt. That sounded like a paid advertisement, but I really just like the series",
+      "replies": []
+    }
+  ],
+  "continuationToken": null,
+  "httpStatusCode": "OK",
+  "errors": [],
+  "isError": false
+}

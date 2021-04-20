@@ -7,6 +7,7 @@ interface CommentProps {
 
 const SingleComment = ({
   comment: {
+    id,
     user: { name: username },
     comment,
     replies
@@ -27,9 +28,13 @@ const SingleComment = ({
       <p>{comment}</p>
       <span>{username}</span>
       {replies.length && (
-        <div onClick={() => handleClick()}>View {replies.length} Replies</div>
+        <div data-testid={`${id}-comment`} onClick={() => handleClick()}>
+          View {replies.length} Replies
+        </div>
       )}
-      {!hidden && nestedComments}
+      {!hidden && (
+        <div data-testid={`${id}-nested-comments`}> {nestedComments} </div>
+      )}
     </div>
   );
 };
